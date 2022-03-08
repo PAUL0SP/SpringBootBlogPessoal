@@ -29,7 +29,7 @@ public class Postagem {
 	private String titulo;
 
 	@NotNull(message = "O atributo texto é Obrigatório!")
-	@Size(min = 1, max = 500, message = "O atributo título deve conter no mínimo 01 e no máximo 500 caracteres")
+	@Size(min = 1, max = 500, message = "O atributo texto deve conter no mínimo 01 e no máximo 500 caracteres")
 	private String texto;
 
 	@Temporal(TemporalType.TIMESTAMP)
